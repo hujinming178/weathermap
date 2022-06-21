@@ -11,11 +11,11 @@ servicecomb:
         watch: false
         empty:
           protection: false
-  config:
-    client:
-      serverUri: https://192.168.0.211:30110,https://192.168.0.241:30110 #此处填写要注册到的微服务引擎的配置中心地址
-      refreshMode: 1
-      refresh_interval: 5000
+        
+  kie:
+    serverUri: https://192.168.0.211:30110,https://192.168.0.241:30110 #此处填写要注册到的微服务引擎的配置中心地址
+    refreshMode: 1
+    refresh_interval: 5000
 
   rest:
     address: 0.0.0.0:13092
