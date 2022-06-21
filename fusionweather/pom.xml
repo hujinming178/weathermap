@@ -35,6 +35,12 @@
         <dependency>
             <groupId>org.apache.servicecomb</groupId>
             <artifactId>solution-basic</artifactId>
+                <exclusions>
+        <exclusion>
+          <groupId>org.apache.servicecomb</groupId>
+          <artifactId>config-cc</artifactId>
+        </exclusion>
+      </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.servicecomb</groupId>
